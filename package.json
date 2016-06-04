@@ -1,0 +1,23 @@
+{
+  "name": "popcorn-site",
+  "version": "0.4.0",
+  "description": "Website V2 for Popcorn Time",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popcorn-official/popcorn-site.git"
+  },
+  "author": "Popcorn Official",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/popcorn-official/popcorn-site/issues"
+  },
+  "homepage": "https://github.com/popcorn-official/popcorn-site",
+  "dependencies": {
+    "jade": "*",
+    "express": "*",
+    "i18next-node-fs-backend": "*",
+    "i18next-express-middleware": "*",
+    "i18next-sprintf-postprocessor": "*",
+    "i18next": "*"
+  }
+}

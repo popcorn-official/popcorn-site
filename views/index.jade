@@ -1,0 +1,442 @@
+doctype html
+html(lang=i18n.language)
+  head
+    meta(charset='utf-8')
+    |     
+    title=i18n.t('meta.title')
+    // Use latest IE Engine
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    // Metadata
+    meta(name='keywords',  content='popcorn,time,download,streaming,movies,tv,shows,free,hd,android,popcorn-time,popcorntime')
+    |     
+    meta(name='description', data-i18n='meta.description', content=i18n.t('meta.description'))
+    |     
+    meta(name='author', content='Popcorn Time')
+    meta(name='google', content='notranslate')
+    meta(name='viewport', content='width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no')
+    meta(name='language', content='en')
+    meta(name='google-site-verification', content='MD35CXFqrNQJZy0bQKGSdtX7cTAYov9mHP64rTYsgUQ')
+    meta(name='msvalidate.01', content='75DC9B72251F812CE6336DAE1EE37186')
+    // Facebook OpenGraph Metadata
+    meta(property='og:title', content='Popcorn Time')
+    meta(property='og:description', content='Skip the downloads ! Watch the best movies and TV shows on Popcorn Time instantly in HD, with subtitles, for free! Available for Windows, Mac, Linux and Android.')
+    link(rel='amphtml', href='https://popcorntime.sh/amp.html')
+    meta(property='og:type', content='website')
+    meta(property='og:url', content='https://popcorntime.sh')
+    meta(property='og:image', content='https://popcorntime.sh/images/graph-image.png')
+    // 1200x630px
+    // Twitter Cards Metadata
+    meta(name='twitter:card', content='summary')
+    meta(name='twitter:url', content='https://popcorntime.sh')
+    meta(name='twitter:domain', content='popcorntime.sh')
+    meta(name='twitter:title', content='Popcorn Time')
+    meta(name='twitter:description', content='Skip the downloads ! Watch the best movies and TV shows on Popcorn Time instantly in HD, with subtitles, for free! Available for Windows, Mac, Linux and Android.')
+    meta(name='twitter:image', content='https://popcorntime.sh/images/icon152.png')
+    meta(name='twitter:site', content='@popcorntimetv')
+    meta(name='twitter:creator', content='@popcorntimetv')
+    // Bookmark/Shortcut Icons
+    link(rel='icon shortcut', type='image/x-icon', href='https://popcorntime.sh/favicon.ico')
+    link(rel='alternate', hreflang='x-default', href='https://popcorntime.sh')
+    link(rel='alternate', hreflang='en', href='https://popcorntime.sh/en')
+    link(rel='alternate', hreflang='en-US', href='https://popcorntime.sh/en-US')
+    link(rel='alternate', hreflang='fr', href='https://popcorntime.sh/fr')
+    link(rel='alternate', hreflang='de', href='https://popcorntime.sh/de')
+    link(rel='alternate', hreflang='ar', href='https://popcorntime.sh/ar')
+    link(rel='alternate', hreflang='nl-NL', href='https://popcorntime.sh/nl')
+    link(rel='alternate', hreflang='nl', href='https://popcorntime.sh/nl')
+    link(rel='alternate', hreflang='es', href='https://popcorntime.sh/es')
+    link(rel='alternate', hreflang='pt', href='https://popcorntime.sh/pt')
+    link(rel='alternate', hreflang='pt-BR', href='https://popcorntime.sh/pt-BR')
+    link(rel='alternate', hreflang='es-MX', href='https://popcorntime.sh/es-MX')
+    link(rel='alternate', hreflang='nb', href='https://popcorntime.sh/nb')
+    link(rel='alternate', hreflang='el', href='https://popcorntime.sh/el')
+    link(rel='alternate', hreflang='sv', href='https://popcorntime.sh/sv')
+    link(rel='alternate', hreflang='it', href='https://popcorntime.sh/it')
+    link(rel='alternate', hreflang='gl', href='https://popcorntime.sh/gl')
+    link(rel='alternate', hreflang='bn', href='https://popcorntime.sh/bn')
+    link(rel='alternate', hreflang='eu', href='https://popcorntime.sh/eu')
+    link(rel='alternate', hreflang='fi', href='https://popcorntime.sh/fi')
+    link(rel='alternate', hreflang='ms', href='https://popcorntime.sh/ms')
+    link(rel='alternate', hreflang='bg', href='https://popcorntime.sh/bg')
+    link(rel='alternate', hreflang='ru', href='https://popcorntime.sh/ru')
+    link(rel='alternate', hreflang='zh', href='https://popcorntime.sh/zh_CN')
+    link(rel='alternate', hreflang='da', href='https://popcorntime.sh/da')
+    
+    meta(name='apple-mobile-web-app-title', content='Popcorn Time')     
+    link(rel='apple-touch-icon-precomposed', href='/images/icon152.png', sizes='152x152')
+    link(rel='apple-touch-icon-precomposed', href='/images/icon144.png', sizes='144x144')
+    link(rel='apple-touch-icon-precomposed', href='/images/icon120.png', sizes='120x120')
+    link(rel='apple-touch-icon-precomposed', href='/images/icon114.png', sizes='114x114')
+    link(rel='apple-touch-icon-precomposed', href='/images/icon76.png', sizes='76x76')
+    link(rel='apple-touch-icon-precomposed', href='/images/icon72.png', sizes='72x72')
+    link(rel='apple-touch-icon-precomposed', href='/images/icon57.png', sizes='57x57')
+    // CSS
+    link(href='/css/main.css', media='all', rel='stylesheet', type='text/css')
+    // END CSS
+    
+    script(type='application/ld+json').
+      [
+      {
+      "@context": "http://schema.org",
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs" : ["https://plus.google.com/+popcorntimeshplus","https://www.facebook.com/PopcornTimedotsh", "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Popcorn Time",
+      "alternateName" : "PopcornTime",
+      "author": {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs": ["https://plus.google.com/+popcorntimeshplus", "https://www.facebook.com/PopcornTimedotsh" , "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      "publisher": {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs": ["https://plus.google.com/+popcorntimeshplus","https://www.facebook.com/PopcornTimedotsh" ,  "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      "url": "https://popcorntime.sh/",
+      "description": "Skip the downloads! Watch the best movies and TV shows on Popcorn Time instantly in HD, with subtitles, for free! Available for Windows, Mac, Linux and Android."
+      }, {
+      "@context" : "http://schema.org",
+      "@type" : "SoftwareApplication",
+      "name" : "Popcorn Time",
+      "discussionUrl": "https://www.reddit.com/r/PopCornTime/",
+      "url" : "https://popcorntime.sh",
+      "thumbnailUrl": "https://popcorntime.sh/images/icon57.png",
+      "datePublished": "2016-02-16T00:00:00",
+      "interactionCount": "UserDownloads: 300.113",
+      "image" : "https://popcorntime.sh/images/graph-image.png",
+      "screenshot" : "https://popcorntime.sh/images/graph-image.png",
+      "author": {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs": ["https://plus.google.com/+popcorntimeshplus", "https://www.facebook.com/PopcornTimedotsh" , "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      "publisher": {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs": ["https://plus.google.com/+popcorntimeshplus","https://www.facebook.com/PopcornTimedotsh" ,  "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      "isFamilyFriendly" : true,
+      "applicationCategory" : "Streaming software",
+      "operatingSystem" : ["OSX", "Windows", "Linux" , "Android" , "Android Tv"],
+      "processorRequirements" : "32-bit or 64-bit",
+      "softwareVersion" : "0.3.9",
+      "keywords": "video-streaming,peer-to-peer,movie-catalog,movie-streaming,torrent-movies,movie-download, popcorn, time, popcorn time, popcorntime",
+      "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "4.5",
+      "ratingCount": "709"
+      },
+      "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "availability" : "http://schema.org/InStock",
+      "priceCurrency": "USD"
+      },
+      "sameAs": ["https://wikipedia.org/wiki/Popcorn_Time", "http://alternativeto.net/software/popcorn-time/"]
+      },
+      {
+      "@context": "http://schema.org",
+      "@type": "SoftwareSourceCode",
+      "codeRepository": "https://github.com/popcorn-official",
+      "codeSampleType": "Full",
+      "programmingLanguage": "Node.js",
+      "author": {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs": ["https://plus.google.com/+popcorntimeshplus", "https://www.facebook.com/PopcornTimedotsh" , "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      "publisher": {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh",
+      "sameAs": ["https://plus.google.com/+popcorntimeshplus","https://www.facebook.com/PopcornTimedotsh" ,  "https://twitter.com/popcorntimetv", "https://wikipedia.org/wiki/Popcorn_Time", "https://www.reddit.com/r/PopCornTime/"]
+      },
+      "targetProduct" : {
+      "@type" : "SoftwareApplication",
+      "thumbnailUrl": "https://popcorntime.sh/images/icon57.png",
+      "datePublished": "2016-02-16T00:00:00",
+      "interactionCount": "UserDownloads: 300.113",
+      "name" : "Popcorn Time",
+      "discussionUrl": "https://www.reddit.com/r/PopCornTime/",
+      "url" : "https://popcorntime.sh",
+      "image" : "https://popcorntime.sh/images/graph-image.png",
+      "screenshot" : "https://popcorntime.sh/images/graph-image.png",
+      "author" : {
+      "@type" : "Organization",
+      "name" : "Popcorn Time",
+      "email": "hello@popcorntime.sh",
+      "logo" : "https://popcorntime.sh/images/header-logo.png",
+      "url": "https://popcorntime.sh"
+      },
+      "isFamilyFriendly" : true,
+      "applicationCategory" : "https://wikipedia.org/wiki/Category:Streaming_software",
+      "applicationCategory" : "https://wikipedia.org/wiki/Category:Video_on_demand_services",
+      "processorRequirements" : "32-bit or 64-bit",
+      "softwareVersion" : "0.3.9",
+      "operatingSystem" : ["OSX", "Windows", "Linux" , "Android" , "Android Tv"],
+      "keywords": "video-streaming,peer-to-peer,movie-catalog,movie-streaming,torrent-movies,movie-download, popcorn, time, popcorn time, popcorntime",
+      "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "4.5",
+      "ratingCount": "709"
+      },
+      "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "availability" : "http://schema.org/InStock",
+      "priceCurrency": "USD"
+      },
+      "sameAs": ["https://wikipedia.org/wiki/Popcorn_Time", "http://alternativeto.net/software/popcorn-time/"]
+      }
+      }
+      ]
+  body.beta(lang=i18n.language)
+    #header
+      nav.fixed-width
+        a.logo-link(href='https://popcorntime.sh/', title='Popcorn Time')
+          h1#logo(title='Popcorn Time') Popcorn Time
+        ul.social.align-right
+          li
+            a.blog(href='https://blog.popcorntime.sh/', title='Popcorn Time Blog', target='_blank') Blog
+          li
+            a.discourse(href='https://www.reddit.com/r/PopCornTime/', title='Forum', target='_blank') Forum
+          li
+            a.twitter(href='https://twitter.com/popcorntimetv', title='Twitter', target='_blank') Twitter
+          li
+            a.google(href='https://plus.google.com/+popcorntimeshplus', rel='publisher', target='_blank') Google+
+          li
+            a.facebook(href='https://www.facebook.com/PopcornTimedotsh', title='Facebook', target='_blank') Facebook
+          li
+            a.reddit(href='https://www.reddit.com/r/PopCornTime/', title='Reddit', target='_blank') Reddit
+          li
+            a.github(href='https://github.com/popcorn-official/', title='Github', target='_blank') Github
+        
+        ul.align-left(itemscope='', itemtype='http://www.schema.org/SiteNavigationElement')
+          li.text(itemprop='name')
+            a(itemprop='url', data-i18n='nav.faq',lang ='en', href='https://popcorntime.sh/faq')=(i18n.t('nav.faq'))
+          li.text(itemprop='name')
+            a(itemprop='url', lang ='en' , data-i18n='nav.tos',  href='https://popcorntime.sh/tos')=(i18n.t('nav.tos'))
+          a.align-left.nav.twitter-follow-button(href='https://twitter.com/popcorntimetv', data-show-count='false', data-dnt='true') Follow @popcorntimetv
+          script.
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');        
+        .align-left
+      .text
+        h2=(i18n.t('header.beta.title'))
+        
+        p=(i18n.t('header.beta.subtitle'))
+       ul#links
+        li.download.dl-mac
+          a.btn-main.icon-mac(data-os='Mac', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Mac.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+          br
+          small
+            span=(i18n.t('download.mac'))
+            span.divider
+            a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))        
+        li.download.dl-win
+          a.btn-main.icon-win(data-os='Windows', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Setup.exe')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+          br
+          small
+            span=(i18n.t('download.windows'))
+            span.divider
+            a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+        li.download.dl-lin-32
+          a.btn-main.icon-linux(data-os='Linux 32', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Linux-32.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+          br
+          small
+            span=(i18n.t('download.linux32'))
+            span.divider 
+            a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+        li.download.dl-lin-64
+          a.btn-main.icon-linux(data-os='Linux 64', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Linux-64.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+          br
+          small
+            span=(i18n.t('download.linux64'))
+            span.divider 
+            a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+        li.download.dl-android(title='Popcorn Time')
+          a.btn-main.icon-android(data-os='Android', href='https://popcorntime.sh/download/android/0.2.8/mobile-armeabi-v7a-release-0.2.8.apk', title='Download Android')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['2.8']}))
+          br
+          small
+            span=(i18n.t('download.android'))
+            span.divider
+            a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+        li.download.dl-androidtv-arm32
+          a.btn-main.icon-androidtv-arm32(data-os='Android TV', href='https://popcorntime.sh/download/android/0.1.3/tv-armeabi-v7a-release-0.1.3.apk', title='Popcorn Time Download Android TV')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['1.3']}))
+          br
+          small
+            span(data-i18n='download.androidtv-arm32') For Android TV 5.0 and abov
+            span.divider
+            a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+        li.download.dl-androidtv-x86
+          a.btn-main.icon-androidtv-x86(data-os='Android TV', href='https://popcorntime.sh/download/android/0.1.3/tv-x86-release-0.1.3.apk')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['1.3']}))
+          br
+          small
+            span=(i18n.t('download.androidtv-x86'))
+             span.divider 
+             a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+    .container
+      .warning
+        img(src='images/icon-warning.svg', alt='Warning!')
+        h2=(i18n.t('warning.whatitdoes'))
+        p=(i18n.t('warning.copyright'))
+        p=(i18n.t('warning.ci'))
+      
+      section#features
+        div.clear-fix
+          article
+            img(src='images/icon-best.png', width='100', alt='Great Movies and TV Shows')
+            h2=(i18n.t('features.greatmovies.title'))
+            p=(i18n.t('features.greatmovies.text'))
+          article
+            img(src='images/icon-watch.png', width='100', alt='No restrictions')
+            h2=(i18n.t('features.restrictions.title'))
+            p=(i18n.t('features.restrictions.text'))
+          article
+            img(src='images/icon-search.png', width='100', alt='Awesome catalogue')
+            h2=(i18n.t('features.catalogue.title'))
+            p=(i18n.t('features.catalogue.text'))
+          article
+            img(src='images/icon-subs.png', width='100', alt='The best quality')
+            h2=(i18n.t('features.quality.title'))
+            p=(i18n.t('features.quality.text'))
+              div.save-wrapper
+                article
+                  img(src='images/icon-save.png', width='100', alt='Save time for making popcorn')
+                  h2=(i18n.t('features.save.title'))
+                  p=(i18n.t('features.save.text'))
+        .align-center.action
+          img.align-center.pochoclin(src='images/logo-valentines.png', alt='Pochoclin')
+          hr
+          h2=(i18n.t('download.free'))
+          .download.dl-mac
+            a.btn-main.icon-mac(data-i18n='download.text', data-os='Mac', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Mac.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))       
+            small(data-i18n='download.mac')
+              span.divider
+              a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))          
+          .download.dl-win
+            a.btn-main.icon-win(data-i18n='download.text', data-os='Windows', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Setup.exe')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))          
+            small(data-i18n='download.windows')
+              span.divider  
+              a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))         
+          .download.dl-lin-32
+            a.btn-main.icon-lin(data-i18n='download.text', data-os='Linux 32', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Linux-32.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+            
+            small(data-i18n='download.linux32')
+              span.divider
+              a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+          .download.dl-lin-64
+            a.btn-main.icon-lin(data-i18n='download.text', data-os='Linux 64', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Linux-64.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))         
+            small(data-i18n='download.linux64')
+              span.divider
+              a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))         
+          .download.dl-android
+            a.btn-main.icon-android(data-i18n='download.text', data-os='Android', href='https://popcorntime.sh/download/android/0.2.8/mobile-armeabi-v7a-release-0.2.8.apk')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['2.8']}))            
+            small(data-i18n='download.android')
+              span.divider
+              a(data-scroll='', href='#get-app')=(i18n.t('download.platforms'))
+      #how
+        .limiter
+          h2=(i18n.t('how.title'))
+          h3=(i18n.t('how.subtitle'))         
+          ul.steps
+            li.how-open=(i18n.t('how.open'))
+            li.how-subtitles=(i18n.t('how.select'))
+            li.how-play=(i18n.t('how.play'))
+      #get-app(data-version='3.9', data-version-android='2.8', data-version-androidtv='1.3')
+        .text
+          h2=(i18n.t('get-app.new'))        
+          p=(i18n.t('get-app.popcorn'))
+        ul#platforms.platforms
+          li.download.mac.icon-laptop
+            a.btn-main.icon-mac(data-os='Mac', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Mac.tar.xz')=(i18n.t('download.text'))
+            small(data-i18n='download.mac')=(i18n.t("download.mac"))
+          li.download.win.icon-screen
+            a.btn-main.icon-win(data-i18n='download.text', data-os='Windows', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Setup.exe')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+            small(data-i18n='download.windows')=(i18n.t("download.windows"))
+          li.download.lin-32.lin-64.icon-window
+            a.btn-main.icon-linux(data-i18n='download.text', data-os='Linux 32', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Linux-32.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+            small(data-i18n='download.linux32')=(i18n.t("download.linux32"))
+            a.btn-main.icon-linux(data-i18n='download.text', data-os='Linux 64', href='https://popcorntime.sh/download/build/Popcorn-Time-0.3.9-Linux-64.tar.xz')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+            small(data-i18n='download.linux64')=(i18n.t("download.linux64"))
+          li.download.android.icon-mobile
+            a.btn-main.icon-android(data-i18n='download.text', data-os='Android', href='https://popcorntime.sh/download/android/0.2.8/mobile-armeabi-v7a-release-0.2.8.apk')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['3.9']}))
+            small(data-i18n='download.android')=(i18n.t("download.android"))   
+          li.download.androidtv.icon-tv
+            a.btn-main.icon-android.androidtv(data-i18n='download.text', data-os='Android TV arm32', href='https://popcorntime.sh/download/build/0.1.3/tv-armeabi-v7a-release-0.1.3.apk')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['1.3']}))
+            small(data-i18n='download.androidtv-arm32')=(i18n.t("download.androidtv-arm32"))
+            a.btn-main.icon-android.androidtv(data-i18n='download.text', data-os='Android TV x86', href='https://popcorntime.sh/download/build/0.1.3/tv-x86-release-0.1.3.apk')=(i18n.t("download.text", {postProcess: 'sprintf', sprintf: ['1.3']}))
+            small(data-i18n='download.androidtv-x86')=(i18n.t("download.androidtv-x86"))
+      #footer
+        a.logo(href='https://popcorntime.sh/', title='Popcorn Time') Popcorn time               
+        ul.social
+          li
+            a.blog(href='https://blog.popcorntime.sh/', title='Blog', target='_blank') Blog
+          li
+            a.discourse(href='https://www.reddit.com/r/PopCornTime/', title='Forum', target='_blank') Forum
+          li
+            a.twitter(href='https://twitter.com/popcorntimetv', title='Twitter', target='_blank') Twitter
+          li
+            a.facebook(href='https://www.facebook.com/PopcornTimedotsh', title='Facebook', target='_blank') Facebook
+          li
+            a.reddit(href='https://www.reddit.com/r/PopCornTime/', title='Reddit', target='_blank') Reddit
+          li
+            a.github(href='https://github.com/popcorn-official/', title='Github', target='_blank') Github      
+        footer
+          hr
+          p=(i18n.t('footer.love'))
+
+        
+          
+          small
+            a#status(href='http://status.popcorntime.sh/', target='_blank')=(i18n.t('footer.status'))
+            &mdash;                  
+            a(href='https://popcorntime.sh/tos')=(i18n.t('footer.tos'))
+            &mdash;        
+            a(href='https://popcorntime.sh/faq')=(i18n.t('footer.faq'))
+            &mdash;        
+            a(href='https://blog.popcorntime.sh/')=(i18n.t('footer.con'))
+    // JavaScript Libraries
+    
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+    script(src='https://popcorntime.sh/js/main.js')
+    
+    // Google Tag Manager
+    noscript
+      iframe(src='//www.googletagmanager.com/ns.html?id=GTM-W5LM6X', height='0', width='0', style='display:none;visibility:hidden')
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-W5LM6X');
+    // End Google Tag Manager
+

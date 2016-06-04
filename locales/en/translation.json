@@ -1,0 +1,121 @@
+{
+   "locale" : { 
+		"language": "english",
+		"locale-iso": "en"
+		},
+   "meta": {
+     "title": "Popcorn Time - Watch movies and TV shows instantly",
+     "description": "Skip the downloads! Watch the best movies and TV shows on Popcorn Time instantly in HD, with subtitles, for free! Available for Windows, Mac, Linux and Android.",
+     "keyword": "popcorn,time,download,streaming,movies,tv,shows,free,hd,android,popcorn-time,popcorntime"
+   },
+   "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "HOME"
+    },
+    "header": {
+        "beta": {
+            "title": "Watch Movies and TV Shows instantly",
+            "subtitle": "Currently in Beta, but go ahead and try it!"
+        }
+    },
+    "download": {
+        "text": "Download Beta %s",
+        "mac": "For Mac OSX 10.7 and above",
+        "windows": "For Windows 7 and above",
+        "linux32": "For 32-bit Linux",
+        "linux64": "For 64-bit Linux",
+        "android": "For Android 4.0.3 and above",
+	"androidtv-x86": "For Android TV 5.0 and above (x86)",
+	"androidtv-arm32": "For Android TV 5.0 and above (ARM v7a)",
+        "platforms": "Other platforms",
+        "free": "Best of all... it's free!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time streams movies and TV shows from torrents",
+	      "ci": "Please Visit our Popcorn Time Continuous Integration for development version",
+        "copyright": "Downloading copyrighted material may be illegal in your country. Use at your own risk."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Great Movies and TV Shows",
+            "text": "We're constantly searching all over the web for the best torrents from the most important sites."
+        },
+        "restrictions": {
+            "title": "No restrictions",
+            "text": "Watch any movie or TV show as many times as you want. All you need to get started is a proper internet connection."
+        },
+        "catalogue": {
+            "title": "Awesome catalogue",
+            "text": "If the movie or TV show is out there, Popcorn Time will find the best version possible and start streaming it right away."
+        },
+        "quality": {
+            "title": "The best quality",
+            "text": "Watch your movie or episode instantly in HD and with subtitles. And then keep watching."
+        },
+        "save": {
+            "title": "Save time for making popcorn",
+            "text": "No wait or download time. Instant playback of your favorite movies and TV shows."
+        }
+    },
+    "how": {
+        "title": "Hard to believe?",
+        "subtitle": "See how easy it works...",
+        "open": "Open Popcorn Time<br>and select a movie or episode",
+        "select": "Select quality<br>and subtitles",
+        "play": "Click play<br>and enjoy!"
+    },
+    "get-app": {
+	  	"new": "A whole new way to watch movies and TV",
+	  	"popcorn": "Just take care of the popcorn and leave the rest to us."  
+    },
+    "email": {
+        "placeholder": "Email Address",
+        "subscribe": "Subscribe",
+        "notified": "Get notified when a new version is available"
+    },
+    "footer": {
+    	"love": "Made with <span>&#10084;</span> by a bunch of geeks from All Around The World",
+    	"status": "Status",
+    	"faq": "FAQ",
+        "tos": "Terms of Service",
+        "con": "Contact us / About"
+    },
+    "faq" : {
+      "whatq" : " What is Popcorn Time ?",
+      "whata1": "Popcorn Time is the result of many developers and designers putting a bunch of APIs together to make the experience of watching torrent movies as simple as possible.",
+      "whata2": "We are an open source project. We are from all over the world. We love our movies. And boy, do we love popcorn.",
+      "legalq": "Is this legal?",
+      "legala": "Depends on where you're from, really. Once again: we're using torrents, so if you really care, you'd better google what the legal situation around this protocol is where you live.",
+      "seedingq": "Popcorn Time works using torrents, fair enough. Am I seeding while watching a movie?",
+      "seedinga": "Indeed, you are. You're going to be uploading bits and bits of the movie for as long as you're watching it on Popcorn Time.",
+      "storageq": "What happens to the movies after I'm done?",
+      "storagea": "our movies will stay buried in a temporary folder somewhere on your drive until you restart your computer. Then it will be gone for good. You can choose to keep the downloaded files in the settings.",
+      "updateq": "Will there be a new version?",
+      "updatea": "Most definitely. But we do not know when We'll update our website and let you know via Facebook, Twitter, Reddit and Google+ when we it's ready.",
+      "moviesq": "How come you've got the latest movies?",
+      "moviesa": "We search for movies uploaded by YTS. Better ask them how they are handling this!",
+      "episodesq": "Why are some episodes missing?",
+      "episodesa": "We grab the TV Show episodes from EZTV/KAT/RARBG. Due to video and audio codec limitations we are very selective on what releases we grab via the API. This is why some TV shows appear to be missing episodes.",
+      "languagesq": "Will you be adding movies in my language?",
+      "languagesa": "Chances are that most (if not all) of the movies available in Popcorn Time will be in English. However, languages for subtitles and the app itself are constantly being added by our lovely contributors.",
+      "cant-launchq": "Why can't I launch Popcorn Time?",
+      "cant-launcha1": "Your system may prevent unsigned apps from being run",
+      "cant-launcha2": "Go to",
+      "cant-launcha3": "System Preferences > Security > Allow Apps downloaded from > Anywhere",
+      "cant-launcha4": "and try to launch Popcorn Time again.",
+      "cant-launcha5": "You may have not have enough User Priviliges",
+      "cant-launcha6": "Open a Terminal, and type:",
+      "stuckq" : "I can't get past the initial Please wait... screen :(",
+      "stucka" : "Living on Queen Elizabeth's realm, aren't you? Nothing we can do about that right now, sorry.",
+      "select-subtitlesq": "Why can't I select subtitles?",
+      "select-subtitlesa": "You may have to wait until all of the movie data (cover, summary, length, etc...) is retrieved. Sometimes it may be something else!",
+      "new-appsq1": "Thinking about launching for Apple TV/Smart TVs/Commodore 64?",
+      "new-appsq2": "When will the iOS application be released?",
+      "new-appsa1": "Our efforts are currently towards improving our existing applications for watching torrent movies. So launching versions for other platforms is not in our immediate roadmap.",
+      "new-appsa2": "Once our developers think it's ready for the world.",
+      "other-questionq": "I have a question that is not listed here, were should I go?",
+      "other-questiona": "You could ask your question on our forum that is where our developers are trying to answer every question. And when they do not have time to help you someone else from our community might be able to point you in the right direction"
+      
+    }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /cdn-cgi
+Sitemap: https://popcorntime.sh/sitemap.xml

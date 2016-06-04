@@ -1,0 +1,49 @@
+{
+        "windows": {
+                "version": "0.3.8-6",
+                "updateUrl": "https://its.pt/_updates/0_3_8_6.win.nw",
+                "checksum": "a14e313becf68b76cb5255b9db5ecd075b371e60",
+                "signature": "MCwCFF+ba3yLHgKDDm/LhT76bh4jTzbSAhRLzw0KPxa/IEQ/xS98bClUOg/JYQ==",
+                "title": "Hail Hydra",
+                "description": "YTS API / EZTV API FIX / Torrent Collection Fix",
+                "changeLog": [],
+                "gitTag": "v0.3.8-6",
+                "gitCommit": "b5bcd515"
+        },
+        "linux": {
+                "x86": {
+                "version": "0.3.8-6",
+                "updateUrl": "https://its.pt/_updates/0_3_8_6.l.nw",
+                "checksum": "09ca64f03668eefa8b114a7fbba7966860fca594",
+                "signature": "MCwCFGFguPac7vVMGwoEbOmerrvU1ud0AhRkE5EJO8e07bG0XS7YXaqAXLwSiw==",
+                "title": "Hail Hydra",
+                "description": "YTS API / EZTV API FIX / Torrent Collection Fix",
+                "changeLog": [],
+                "gitTag": "v0.3.8-6",
+                "gitCommit": "b5bcd515"
+                },
+                "x64": {
+                        "version": "0.3.8-6",
+                        "updateUrl": "https://its.pt/_updates/0_3_8_6.l.nw",
+                        "checksum": "09ca64f03668eefa8b114a7fbba7966860fca594",
+                        "signature": "MCwCFGFguPac7vVMGwoEbOmerrvU1ud0AhRkE5EJO8e07bG0XS7YXaqAXLwSiw==",
+                        "title": "Hail Hydra",
+                        "description": "YTS API / EZTV API FIX / Torrent Collection Fix",
+                        "changeLog": [],
+                        "gitTag": "v0.3.8-6",
+                        "gitCommit": "b5bcd515"
+                }
+        },
+        "mac": {
+        "version": "0.3.8-6",
+        "updateUrl": "https://its.pt/_updates/0_3_8_6.mac.nw",
+        "checksum": "151abc0442ef97e44f3f8675ce1c7bfc9b00e71b",
+        "signature": "MCwCFEedIrgVfQDc/fV9Ygr4xcpObLG+AhRL1bgpKrh4dtXzVNcKUMdlgXZCFw==",
+        "title": "Hail Hydra",
+        "description": "YTS API / EZTV API FIX / Torrent Collection Fix",
+        "changeLog": [],
+        "gitTag": "v0.3.8-6",
+        "gitCommit": "b5bcd515"
+        }
+}
+

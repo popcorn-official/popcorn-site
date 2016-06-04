@@ -1,0 +1,16 @@
+{
+    "desktop": [{
+        "timestamp": 1435864627,
+        "expires": 121231231231,
+        "targets": ["all"],
+        "title": "Testing Notification",
+        "content": "Ksa is annoying and if i see this it works."
+    }],
+    "android": [{
+        "timestamp": 1435864627,
+        "expires": 121231231231,
+        "targets": ["all"],
+        "title": "Testing Android",
+        "content": "See if this works"
+    }]
+}

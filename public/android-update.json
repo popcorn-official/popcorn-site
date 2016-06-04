@@ -1,0 +1,58 @@
+{
+	"tv": {
+		"release": {
+			"armeabi-v7a": {
+				"versionCode": 20000077,
+				"versionName": "0.1.3",
+				"checksum": "1e0cdbb2cf4e8f8d5b2b152d60192c2db3519de7",
+				"updateUrl": "https://get.popcorntime.sh/android/0.1.3/tv-armeabi-v7a-release-0.1.3.apk"
+			},
+			"arm64-v8a": {
+				"versionCode": 30000077,
+				"versionName": "0.1.3",
+				"checksum": "b0ee525a1912d5ba8bf581c8eaf82984afa9f1a0",
+				"updateUrl": "https://get.popcorntime.sh/android/0.1.3/tv-arm64-v8a-release-0.1.3.apk"
+			},
+			"x86": {
+				"versionCode": 40000077,
+				"versionName": "0.1.3",
+				"checksum": "f4445560b174fa9563f35f0f6cd14a4b86fdd4dc",
+				"updateUrl": "https://get.popcorntime.sh/android/0.1.3/tv-x86-release-0.1.3.apk"
+			},
+			"x86_64": {
+				"versionCode": 40000077,
+				"versionName": "0.1.3",
+				"checksum": "ae50a3fdd3effa919b0462ca7fe8a33f9bfdfabe",
+				"updateUrl": "https://get.popcorntime.sh/build/0.1.3/tv-x86_64-release-0.1.3.apk"
+			}
+		}
+	},
+	"mobile": {
+		"release": {
+			"armeabi-v7a": {
+				"versionCode": 20000077,
+				"versionName": "0.2.8",
+				"checksum": "f08c6ffb90aefb8f2ec61676ad5307891e6995d8",
+				"updateUrl": "https://get.popcorntime.sh/android/0.2.8/mobile-armeabi-v7a-release-0.2.8.apk"
+			},
+			"arm64-v8a": {
+				"versionCode": 30000077,
+				"versionName": "0.2.8",
+				"checksum": "6ebc86077ebfe80ce1ba0a09e8ad3bdec523f1d9",
+				"updateUrl": "https://get.popcorntime.sh/android/0.2.8/mobile-arm64-v8a-release-0.2.8.apk"
+			},
+			"x86": {
+				"versionCode": 40000077,
+				"versionName": "0.2.8",
+				"checksum": "a730edd4e078dbedd99d7f52fb9637146dc93ac4",
+				"updateUrl": "https://get.popcorntime.sh/android/0.2.8/mobile-x86-release-0.2.8.apk"
+			},
+			"x86_64": {
+				"versionCode": 50000077,
+				"versionName": "0.2.8",
+				"checksum": "4f094f470075932425187cf1bb96146e45899e23",
+				"updateUrl": "https://get.popcorntime.sh/android/0.2.8/mobile-x86_64-release-0.2.8.apk"
+			}
+		}
+	}
+}

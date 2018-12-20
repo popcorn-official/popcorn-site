@@ -1,6 +1,6 @@
 {
   "name": "popcorn-site",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Website V2 for Popcorn Time",
   "repository": {
     "type": "git",
@@ -13,11 +13,11 @@
   },
   "homepage": "https://github.com/popcorn-official/popcorn-site",
   "dependencies": {
-    "jade": "*",
-    "express": "*",
-    "i18next-node-fs-backend": "*",
-    "i18next-express-middleware": "*",
-    "i18next-sprintf-postprocessor": "*",
-    "i18next": "*"
+    "pug": "2.0.3",
+    "express": "4.16.4",
+    "i18next-node-fs-backend": "2.1.1",
+    "i18next-express-middleware": "1.5.0",
+    "i18next-sprintf-postprocessor": "0.2.2",
+    "i18next": "13.0.0"
   }
 }

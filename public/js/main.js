@@ -29,7 +29,7 @@ var popcorn = {
         }
     },
     getAndroidVersion: function () {
-        $.get('https://ci.popcorntime.sh/android', function(resp) {
+        $.get('/android-update.json', function(resp) {
             var version = resp.mobile.release["armeabi-v7a"].versionName;
             var newUrl = 'https://get.popcorntime.sh/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
             if(version.indexOf("0") == 0) {

@@ -29,21 +29,13 @@ var popcorn = {
         }
     },
     getAndroidVersion: function () {
-        $.get('https://ci.popcorntime.sh/android', function(resp) {
-            console.log(resp.mobile);
+        $.get('/android-update.json', function(resp) {
             var version = resp.mobile.release["armeabi-v7a"].versionName;
             var newUrl = 'https://get.popcorntime.sh/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
             if(version.indexOf("0") == 0) {
                 version = version.substring(2, version.length);
             }
             $('a[data-os="Android"]').attr('href', newUrl).html(i18n.t("download.text", { defaultValue: "Download Beta %s", postProcess: 'sprintf', sprintf: [version] }));
-
-            version = resp.mobile.release["arm64-v8a"].versionName;
-            var newUrl64v8Url = 'https://get.popcorntime.sh/android/' + version + '/mobile-arm64-v8a-release' + version + '.apk';
-            if(version.indexOf("0") == 0) {
-                version = version.substring(2, version.length);
-            }
-            $('a[data-os="Android"]').attr('href', newUrl64v8Url).html(i18n.t("download.text", { defaultValue: "Download Beta %s", postProcess: 'sprintf', sprintf: [version] }));
 
             version = resp.tv.release["armeabi-v7a"].versionName;
             var newArmUrl = 'https://get.popcorntime.sh/android/' + version + '/tv-armeabi-v7a-release-' + version + '.apk';
